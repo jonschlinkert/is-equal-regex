@@ -1,0 +1,53 @@
+{
+  "name": "is-equal-regex",
+  "description": "Returns true if regular expression A is equal to regex B. Compares the expression and flags.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/is-equal-regex",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/is-equal-regex",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/is-equal-regex/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "kind-of": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "compare",
+    "comparison",
+    "equal",
+    "equals",
+    "expression",
+    "flag",
+    "flags",
+    "global",
+    "is",
+    "regex",
+    "regexp",
+    "regular",
+    "same",
+    "source"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "isobject",
+        "is-plain-object",
+        "is-equal-shallow"
+      ]
+    }
+  }
+}
